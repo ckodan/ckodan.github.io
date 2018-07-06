@@ -12,6 +12,13 @@ document.addEventListener("DOMContentLoaded", function() {
   maxMinScoreFour();
   maxMinScoreFive();
   maxMinScoreSix();
+
+  BigScoreOne();
+  BigScoreTwo();
+  BigScoreThree();
+  BigScoreFour();
+  BigScoreFive();
+  BigScoreSix();
 });
 
 
@@ -227,6 +234,108 @@ function maxMinScoreSix() {
     var three = Number(document.getElementById("c-six-f-one").value);   
 
     var sum = (one - two) * three;     
+    
+    score.innerHTML = "<p>" + sum + "</p>";
+   
+  });
+};
+
+function BigScoreOne() {
+  var score = document.getElementById("big-c-one-score");
+
+  score.addEventListener("click", function() {
+    var one = Number(document.getElementById("big-c-one-f-one").value);
+    var two = Number(document.getElementById("big-c-one-f-two").value);
+    var three = Number(document.getElementById("big-c-one-f-three").value);
+    var four = Number(document.getElementById("big-c-one-f-four").value);
+    var five = Number(document.getElementById("big-c-one-f-five").value);    
+    
+    var sum = one + two + three + four + five;
+    
+    score.innerHTML = "<p>" + sum + "</p>";
+   
+  });
+};
+
+function BigScoreTwo() {
+  var score = document.getElementById("big-c-two-score");
+
+  score.addEventListener("click", function() {
+    var one = Number(document.getElementById("big-c-two-f-one").value);
+    var two = Number(document.getElementById("big-c-two-f-two").value);
+    var three = Number(document.getElementById("big-c-two-f-three").value);
+    var four = Number(document.getElementById("big-c-two-f-four").value);
+    var five = Number(document.getElementById("big-c-two-f-five").value);    
+    
+    var sum = one + two + three + four + five;
+    
+    score.innerHTML = "<p>" + sum + "</p>";
+   
+  });
+};
+
+function BigScoreThree() {
+  var score = document.getElementById("big-c-three-score");
+
+  score.addEventListener("click", function() {
+    var one = Number(document.getElementById("big-c-three-f-one").value);
+    var two = Number(document.getElementById("big-c-three-f-two").value);
+    var three = Number(document.getElementById("big-c-three-f-three").value);
+    var four = Number(document.getElementById("big-c-three-f-four").value);
+    var five = Number(document.getElementById("big-c-three-f-five").value);    
+    
+    var sum = one + two + three + four + five;
+    
+    score.innerHTML = "<p>" + sum + "</p>";
+   
+  });
+};
+
+function BigScoreFour() {
+  var score = document.getElementById("big-c-four-score");
+
+  score.addEventListener("click", function() {
+    var one = Number(document.getElementById("big-c-four-f-one").value);
+    var two = Number(document.getElementById("big-c-four-f-two").value);
+    var three = Number(document.getElementById("big-c-four-f-three").value);
+    var four = Number(document.getElementById("big-c-four-f-four").value);
+    var five = Number(document.getElementById("big-c-four-f-five").value);    
+    
+    var sum = one + two + three + four + five;
+    
+    score.innerHTML = "<p>" + sum + "</p>";
+   
+  });
+};
+
+function BigScoreFive() {
+  var score = document.getElementById("big-c-five-score");
+
+  score.addEventListener("click", function() {
+    var one = Number(document.getElementById("big-c-five-f-one").value);
+    var two = Number(document.getElementById("big-c-five-f-two").value);
+    var three = Number(document.getElementById("big-c-five-f-three").value);
+    var four = Number(document.getElementById("big-c-five-f-four").value);
+    var five = Number(document.getElementById("big-c-five-f-five").value);    
+    
+    var sum = one + two + three + four + five;
+    
+    score.innerHTML = "<p>" + sum + "</p>";
+   
+  });
+};
+
+function BigScoreSix() {
+  var score = document.getElementById("big-c-six-score");
+
+  score.addEventListener("click", function() {
+    var one = Number(document.getElementById("big-c-six-f-one").value);
+    var two = Number(document.getElementById("big-c-six-f-two").value);
+    var three = Number(document.getElementById("big-c-six-f-three").value);
+    var four = Number(document.getElementById("big-c-six-f-four").value);
+    var five = Number(document.getElementById("big-c-six-f-five").value);    
+    
+    var sum = one + two + three + four + five;
     
     score.innerHTML = "<p>" + sum + "</p>";
    
