@@ -17,6 +17,7 @@ body {
 p {
   text-align: center;
   font-weight: bold;
+  font-size: 2vh;
 }
 
 input[type="text"], input[type="number"] {
