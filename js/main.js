@@ -1,3 +1,7 @@
+window.onbeforeunload = function (e) {
+  return "Please click 'Stay on this Page' if you did this unintentionally";
+};
+
 document.addEventListener("DOMContentLoaded", function() {
   columnOneScore();
   columnTwoScore();
