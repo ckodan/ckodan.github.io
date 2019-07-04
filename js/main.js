@@ -27,6 +27,12 @@ document.addEventListener("DOMContentLoaded", function() {
   finalScore();
 });
 
+//VH MOBILE
+window.addEventListener("resize", function() {  
+  var vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+
 //COLUMNS
 function columnOneScore() {
   var score = document.getElementById("c-one-score");
