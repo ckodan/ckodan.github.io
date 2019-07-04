@@ -1,3 +1,7 @@
+//VH MOBILE
+var vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty("--vh", `${vh}px`);
+
 window.onbeforeunload = function (e) {
   return "Please click 'Stay on this Page' if you did this unintentionally";
 };
@@ -25,12 +29,6 @@ document.addEventListener("DOMContentLoaded", function() {
   BigScoreSix();
 
   finalScore();
-});
-
-//VH MOBILE
-window.addEventListener("resize", function() {  
-  var vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
 
 //COLUMNS
